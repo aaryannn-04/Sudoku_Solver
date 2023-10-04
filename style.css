@@ -102,3 +102,28 @@ html, body, div {
   position:relative;
   top:1px;
 } */
+
+
+.sahil-btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+  font-family: Raleway;
+  font-size : 20px;
+  color : #ffffff;
+  padding : 1px 17px;
+  background-color : #000000;
+}
+
+.sahil-btn:hover {
+  background-color: #67c5ff;
+  color: #000000;
+}
+
+.sahil-btn:active {
+  transform: translateY(2px);
+}
